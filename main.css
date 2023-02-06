@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #2e3d71;
+}
+.form {
+  position: relative;
+  background: #fbfcff;
+  border: 1px solid #000;
+  width: 350px;
+  padding: 40px 40px 60px;
+  border-radius: 10px;
+  text-align: center;
+}
+.form h2 {
+  color: #000000;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.form .input {
+  margin-top: 40px;
+  text-align: left;
+}
+.form .input .inputBox {
+  margin-top: 10px;
+}
+.form .input .inputBox label {
+  display: block;
+  color: #000000;
+  margin-bottom: 5px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.form .input .inputBox input {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  border: 1px solid black;
+  outline: none;
+  padding: 5px 15px;
+  background: white;
+  color: #000000;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.form .input .inputBox .submit {
+  cursor: pointer;
+  margin-top: 20px;
+  letter-spacing: 1px;
+  background: blue;
+  color: white;
+  border: none;
+  text-align: center;
+}
+.form .input .inputBox .submit:hover {
+  background: rgb(25, 30, 69);
+}
+.forgot {
+  margin-top: 10px;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+a {
+  color: #3614f7;
+}
